@@ -505,7 +505,8 @@ contract ERC721Metadata is ERC721Enumerable, usingOraclize {
 
 }
 
-contract RealEstateERC721Token is ERC721Metadata("RealEstate", "REM", "https://s3-us-west-2.amazonaws.com/udacity-blockchain/capstone/")
+contract RealEstateERC721Token is ERC721Metadata("Real Estate Marketplace","REM",
+"https://s3-us-west-2.amazonaws.com/udacity-blockchain/capstone/")
 {
     function mint(address to, uint256 tokenId) public onlyOwner returns (bool) {
         super._mint(to, tokenId);
