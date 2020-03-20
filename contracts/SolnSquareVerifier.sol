@@ -39,7 +39,7 @@ contract SolnSquareVerifier is RealEstateERC721Token {
         Solution memory solution = Solution(_tokenId, _address);
         solutions.push(solution);
         uniqueSolutions[key] = solution;
-        emit SolutionAdded(_tokenId,_address);
+        emit SolutionAdded(_tokenId, _address);
     }
 
     // TODO Create a function to mint new NFT only after the solution has been verified
@@ -55,7 +55,7 @@ contract SolnSquareVerifier is RealEstateERC721Token {
         require(verifierContract.verifyTx(a, b, c, input), "Solution not valid");
         bytes32 key = keccak256(abi.encodePacked(a, b, c, input));
         require(uniqueSolutions[key].to == address(0),"Solution already used.");
-        addSolution(_tokenId, _to,key);
+        addSolution(_tokenId, _to, key);
     }
 
     function mintToken(address _to, uint _tokenId,
