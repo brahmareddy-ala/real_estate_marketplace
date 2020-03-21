@@ -12,7 +12,12 @@ Enter below contract address in above link.
 
 Contract Address: 0x61146dC36eeb03c8Ac5852276D0F4924832d2494
 
+https://rinkeby.etherscan.io/address/0x61146dC36eeb03c8Ac5852276D0F4924832d2494
+
 # StoreFront:
+Storefront is created in OpenSea marketplace.
+Properties for which tokens are minted can be viewed using e.g to view the property with token 5
+https://rinkeby.opensea.io/assets/0x61146dC36eeb03c8Ac5852276D0F4924832d2494/5
 
 https://rinkeby.opensea.io/assets/real-estate-marketplace-abr
 
@@ -95,8 +100,19 @@ OpenSea is a decentralized marketplace that is used for selling for crypto asset
 
 You will be using OpenSea in this project to list your property tokens for sale. In order to list a property, you'll need to go to the item on your account page. On the item detail page, click "Sell". This will walk you through the steps for selling an item. Note that the first time you auction an item, you will need to complete several MetaMask transactions in order to give the exchange contracts access to your items. After you complete these initial steps, creating an auction will only require signing a MetaMask message. This means that you can auction items without paying gas.
 
+# Deployment:
+
+Create an account in Infura
+
+Create a project in Infura and get the Address for deploying in Rinkeby test network
+
+Copy the endpoint address and update the Rinkeby network information with the mnemonic and endpoint address in Truffle.js file
+
+Fund the metamask wallet by posting a tweet in https://faucet.rinkeby.io. The post should have the address “ Requesting faucet funds into ……. On the Rinkeby Ethereum test network” Then copy the tweet in the above website and click Give me Ether.
+
+Then deploy it using truffle.cmd deploy - -network rinkeby. If needed to deploy again use truffle.cmd migrate - -network rinkeby - - reset - -compile-all
+
 # Minting a Token:
 The tool used for minting is "MyEtherWallet" and mint the 10 tokens to list in Opensea. You'll just need the ABI and the deployed SolnSquareVerifier's contract address. From there, you can access the public mint function inherited from your ERC721Mintable file.
 
 https://www.myetherwallet.com/interface/interact-with-contract
-
