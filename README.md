@@ -7,10 +7,9 @@ Once the token has been verified you will place it on a blockchain market place 
 # https://rinkeby.opensea.io/get-listed/step-two
 
 Enter below contract address in above link.
+Contract Address: 0x61146dC36eeb03c8Ac5852276D0F4924832d2494
 
-# Contract Address: 0x61146dC36eeb03c8Ac5852276D0F4924832d2494
-
-                        OR
+OR
 
 # https://rinkeby.opensea.io/assets/real-estate-marketplace-abr
 
