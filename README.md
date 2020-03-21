@@ -12,8 +12,6 @@ Enter below contract address in above link.
 
 Contract Address: 0x61146dC36eeb03c8Ac5852276D0F4924832d2494
 
-OR
-
 # StoreFront:
 
 https://rinkeby.opensea.io/assets/real-estate-marketplace-abr
