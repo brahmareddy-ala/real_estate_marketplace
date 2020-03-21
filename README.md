@@ -4,9 +4,19 @@ In this project you will be minting your own tokens to represent your title to t
 
 Once the token has been verified you will place it on a blockchain market place (OpenSea) for others to purchase.
 
-Succinct Zero-Knowledge proofs (zkSnarks) are proving to be one of the most promising frameworks for enhancing privacy and scalability in the blockchain space.
+# https://rinkeby.opensea.io/get-listed/step-two
+
+Enter below contract address in above link.
+
+# Contract Address: 0x61146dC36eeb03c8Ac5852276D0F4924832d2494
+
+                        OR
+
+# https://rinkeby.opensea.io/assets/real-estate-marketplace-abr
 
 # Getting Started with Zokrates:
+
+Succinct Zero-Knowledge proofs (zkSnarks) are proving to be one of the most promising frameworks for enhancing privacy and scalability in the blockchain space.
 
 Step 1: Install Docker
 Currently, Docker is the recommended way to get started with Zokrates. Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package. You can find instructions for installing it here.
@@ -74,7 +84,7 @@ Next step is to 'generate our proof' based on the above 'witness' A proof.json f
 Step 8: Export Verifier
 Last but never the least, let's generate our 'verifier' smart contract
 
-path/to/zokrates export-verifier
+path/to/zokrates export-verifier.
 
 # OpenSea:
 OpenSea is a decentralized marketplace that is used for selling for crypto assets such as CryptoKitties and other digital assets that are powered off Ethereum. On OpenSea, you can buy or sell any of these items through a smart contract, meaning that no central authority ever holds custody of your items.
@@ -85,5 +95,3 @@ You will be using OpenSea in this project to list your property tokens for sale.
 The tool used for minting is "MyEtherWallet" and mint the 10 tokens to list in Opensea. You'll just need the ABI and the deployed SolnSquareVerifier's contract address. From there, you can access the public mint function inherited from your ERC721Mintable file.
 
 https://www.myetherwallet.com/interface/interact-with-contract
-
-https://rinkeby.opensea.io/get-listed/step-two
