@@ -83,7 +83,7 @@ Now take the 'flattened' code, which is a circuit and go through a 'trusted setu
 Step 6: Compute Witness
 Having gone through the 'trusted setup' let's compute our 'witness' who knows the answer and it generates a witness file with computation steps.
 
-/path/to/zokrates compute-witness -a <a> <b>
+/path/to/zokrates compute-witness -a
 
 Step 7: Generate Proof
 Next step is to 'generate our proof' based on the above 'witness' A proof.json file is generated in this step
